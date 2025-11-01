@@ -8,11 +8,11 @@ class Nblm < Formula
     on_macos do
       on_arm do
         url "https://github.com/K-dash/nblm-rs/releases/download/v0.2.0/nblm-macos-aarch64.tar.gz"
-        sha256 "4c68904c08f18a39e86c4a04231e23c85f35f3a94314e7fb8e00ead57d553888"
+        sha256 "0c52d337dc108de7d4ba349acd636470467760e5f2de25edba7b389f5a2a79e0"
       end
       on_intel do
         url "https://github.com/K-dash/nblm-rs/releases/download/v0.2.0/nblm-macos-x86_64.tar.gz"
-        sha256 "d165559cd41bc71b456af9fa30c2083383ea949bb2a6f6131519109183a85c7a"
+        sha256 "6b3543d8603574534c4d4c65f66dc67ad5040aebca5dff7a39f13a2d37bd644f"
       end
     end
 
