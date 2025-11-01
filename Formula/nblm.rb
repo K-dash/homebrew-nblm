@@ -3,16 +3,16 @@ class Nblm < Formula
     desc "NotebookLM Enterprise CLI"
     homepage "https://github.com/K-dash/nblm-rs"
     license "MIT"
-    version "0.2.0"
+    version "0.2.1"
 
     on_macos do
       on_arm do
-        url "https://github.com/K-dash/nblm-rs/releases/download/v0.2.0/nblm-macos-aarch64.tar.gz"
-        sha256 "0c52d337dc108de7d4ba349acd636470467760e5f2de25edba7b389f5a2a79e0"
+        url "https://github.com/K-dash/nblm-rs/releases/download/v0.2.1/nblm-macos-aarch64.tar.gz"
+        sha256 "3b3db47d9420c0e78842653976557dab81a6d6bf83f7902e0e393f453f91db0a"
       end
       on_intel do
-        url "https://github.com/K-dash/nblm-rs/releases/download/v0.2.0/nblm-macos-x86_64.tar.gz"
-        sha256 "6b3543d8603574534c4d4c65f66dc67ad5040aebca5dff7a39f13a2d37bd644f"
+        url "https://github.com/K-dash/nblm-rs/releases/download/v0.2.1/nblm-macos-x86_64.tar.gz"
+        sha256 "d22c57c721d2abd9340b36ff93d07689bbef327700bfe3e8fafafc024cc20218"
       end
     end
 
